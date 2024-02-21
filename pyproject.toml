@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "car_price_prediction"
+version = "0.1.0"
+description = "The application for predicting car price depending on travel distance, integrity and color"
+authors = ["Viet-Dung Tran"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
